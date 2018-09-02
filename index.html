@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Message in a bottle</title>
+    <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+    <meta charset="UTF-8">
+  </head>
+  <body>
+    <canvas id="game_canvas" width="800" height="600">
+    </canvas>
+    <form onsubmit="return false;" method="get">
+      <textarea id="message"></textarea><br />
+      <button id="throw" onclick="onThrow();">Throw!</button>
+    </form>
+    <script src="js/game.js"></script>
+  </body>
+</html>
